@@ -3,77 +3,895 @@
     {
       "id": "zrO_my-AAVk",
       "videoId": "zrO_my-AAVk",
-      "title": "The CEO's Cinderella",
+      "title": "灰姑娘遇霸总",
       "titleChinese": "灰姑娘遇霸总",
       "youtubeUrl": "https://www.youtube.com/watch?v=zrO_my-AAVk",
       "thumbnail": "https://i.ytimg.com/vi/zrO_my-AAVk/maxresdefault.jpg",
       "episodeCount": 1,
       "totalDurationHours": 2.1,
       "ending": "HE",
-      "vibes": ["sweet", "hype"],
-      "tropes": ["CEO Romance", "Cinderella Story", "Contract Marriage"],
-      "scoreV0": 9.4,
-      "why": "Billionaire CEO meets ordinary girl — classic trope executed with high production value and 14M views"
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Cinderella Story",
+        "Contract Marriage",
+        "CEO Romance"
+      ],
+      "scoreV0": 9.7,
+      "why": "Cinderella Story + Contract Marriage — 14M views, cinderella story"
     },
     {
       "id": "97dUd6jo-vs",
       "videoId": "97dUd6jo-vs",
-      "title": "Addicted to Spoiling Her",
+      "title": "宠溺成瘾",
       "titleChinese": "宠溺成瘾",
       "youtubeUrl": "https://www.youtube.com/watch?v=97dUd6jo-vs",
       "thumbnail": "https://i.ytimg.com/vi/97dUd6jo-vs/maxresdefault.jpg",
       "episodeCount": 1,
       "totalDurationHours": 2.7,
       "ending": "HE",
-      "vibes": ["sweet", "laugh"],
-      "tropes": ["Medical Romance", "CEO Romance", "Protective Love"],
-      "scoreV0": 9.4,
-      "why": "Top surgeon CEO spoils his love — pure sweetness with medical drama twist"
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Medical Romance",
+        "CEO Romance",
+        "Protective Love"
+      ],
+      "scoreV0": 8.6,
+      "why": "Medical Romance + CEO Romance — 6M views, medical romance"
     },
     {
       "id": "G2DvWdfAvEY",
       "videoId": "G2DvWdfAvEY",
-      "title": "Love Unrequited",
+      "title": "爱不遂人愿",
       "titleChinese": "爱不遂人愿",
       "youtubeUrl": "https://www.youtube.com/watch?v=G2DvWdfAvEY",
       "thumbnail": "https://i.ytimg.com/vi/G2DvWdfAvEY/maxresdefault.jpg",
       "episodeCount": 1,
       "totalDurationHours": 1.9,
       "ending": "HE",
-      "vibes": ["cry", "sweet"],
-      "tropes": ["Secret Baby", "CEO Romance", "Second Chance"],
-      "scoreV0": 9.4,
-      "why": "Secret baby reunion story — emotional rollercoaster with satisfying payoff"
-    },
-    {
-      "id": "NDULBqPT6XY",
-      "videoId": "NDULBqPT6XY",
-      "title": "Inside and Outside the Home",
-      "titleChinese": "家里家外",
-      "youtubeUrl": "https://www.youtube.com/watch?v=NDULBqPT6XY",
-      "thumbnail": "https://i.ytimg.com/vi/NDULBqPT6XY/maxresdefault.jpg",
-      "episodeCount": 24,
-      "totalDurationHours": 3.2,
-      "ending": "HE",
-      "vibes": ["dogblood", "hype", "cry"],
-      "tropes": ["Blended Family", "Family Drama", "Protective Love"],
-      "scoreV0": 9.2,
-      "why": "Divorced mom + widowed dad weaponize unconditional love against toxic relatives — execution of '护短' trope at its finest"
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Secret Baby",
+        "CEO Romance",
+        "Second Chance"
+      ],
+      "scoreV0": 7.6,
+      "why": "Secret Baby + CEO Romance — 5M views, secret baby"
     },
     {
       "id": "FDK5ZGuuLJY",
       "videoId": "FDK5ZGuuLJY",
-      "title": "Miao Girl Grabs the CEO",
+      "title": "苗疆女孩的霸总",
       "titleChinese": "苗疆女孩的霸总",
       "youtubeUrl": "https://www.youtube.com/watch?v=FDK5ZGuuLJY",
       "thumbnail": "https://i.ytimg.com/vi/FDK5ZGuuLJY/maxresdefault.jpg",
       "episodeCount": 1,
       "totalDurationHours": 1.7,
       "ending": "HE",
-      "vibes": ["laugh", "sweet"],
-      "tropes": ["Contract Marriage", "CEO Romance", "Cinderella Story"],
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Contract Marriage",
+        "CEO Romance",
+        "Cinderella Story"
+      ],
+      "scoreV0": 7.3,
+      "why": "Contract Marriage + CEO Romance — 4M views, contract marriage"
+    },
+    {
+      "id": "tinYl6D3Voc",
+      "videoId": "tinYl6D3Voc",
+      "title": "萌宝认爹",
+      "titleChinese": "萌宝认爹",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tinYl6D3Voc",
+      "thumbnail": "https://i.ytimg.com/vi/tinYl6D3Voc/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 1.3,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Secret Baby",
+        "CEO Romance"
+      ],
+      "scoreV0": 7.2,
+      "why": "Secret Baby + CEO Romance — 4M views, secret baby"
+    },
+    {
+      "id": "NYae_U66TY4",
+      "videoId": "NYae_U66TY4",
+      "title": "贺先生的白月光",
+      "titleChinese": "贺先生的白月光",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NYae_U66TY4",
+      "thumbnail": "https://i.ytimg.com/vi/NYae_U66TY4/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 1.7,
+      "ending": "HE",
+      "vibes": [
+        "sweet",
+        "hype"
+      ],
+      "tropes": [
+        "Wronged Woman",
+        "CEO Romance",
+        "Childhood Sweethearts"
+      ],
+      "scoreV0": 7.4,
+      "why": "Wronged Woman + CEO Romance — 4M views, wronged woman"
+    },
+    {
+      "id": "YrnGdZyOMak",
+      "videoId": "YrnGdZyOMak",
+      "title": "哑妻的契约婚姻",
+      "titleChinese": "哑妻的契约婚姻",
+      "youtubeUrl": "https://www.youtube.com/watch?v=YrnGdZyOMak",
+      "thumbnail": "https://i.ytimg.com/vi/YrnGdZyOMak/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 1.8,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Contract Marriage",
+        "Secret Identity",
+        "CEO Romance"
+      ],
+      "scoreV0": 7.7,
+      "why": "Contract Marriage + Secret Identity — 4M views, contract marriage"
+    },
+    {
+      "id": "rmhtcj5NRhM",
+      "videoId": "rmhtcj5NRhM",
+      "title": "电梯灰姑娘",
+      "titleChinese": "电梯灰姑娘",
+      "youtubeUrl": "https://www.youtube.com/watch?v=rmhtcj5NRhM",
+      "thumbnail": "https://i.ytimg.com/vi/rmhtcj5NRhM/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 1.9,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Cinderella Story",
+        "CEO Romance",
+        "Secret Identity"
+      ],
+      "scoreV0": 7.3,
+      "why": "Cinderella Story + CEO Romance — 4M views, cinderella story"
+    },
+    {
+      "id": "5e0sNYiWGR8",
+      "videoId": "5e0sNYiWGR8",
+      "title": "重生之恶女不作妖",
+      "titleChinese": "重生之恶女不作妖",
+      "youtubeUrl": "https://www.youtube.com/watch?v=5e0sNYiWGR8",
+      "thumbnail": "https://i.ytimg.com/vi/5e0sNYiWGR8/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 2.3,
+      "ending": "BE",
+      "vibes": [
+        "sweet",
+        "hype"
+      ],
+      "tropes": [
+        "Second Chance",
+        "Revenge Plot",
+        "CEO Romance"
+      ],
+      "scoreV0": 7.2,
+      "why": "Second Chance + Revenge Plot — 3M views, second chance"
+    },
+    {
+      "id": "OOe9mNnxWRQ",
+      "videoId": "OOe9mNnxWRQ",
+      "title": "十八岁的契约婚姻",
+      "titleChinese": "十八岁的契约婚姻",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OOe9mNnxWRQ",
+      "thumbnail": "https://i.ytimg.com/vi/OOe9mNnxWRQ/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 1.5,
+      "ending": "unknown",
+      "vibes": [
+        "hype"
+      ],
+      "tropes": [
+        "Contract Marriage",
+        "Secret Identity",
+        "Cinderella Story"
+      ],
+      "scoreV0": 7.4,
+      "why": "Contract Marriage + Secret Identity — 3M views, contract marriage"
+    },
+    {
+      "id": "qoMzRNbeyfk",
+      "videoId": "qoMzRNbeyfk",
+      "title": "真千金她是学霸",
+      "titleChinese": "真千金她是学霸",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qoMzRNbeyfk",
+      "thumbnail": "https://i.ytimg.com/vi/qoMzRNbeyfk/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 1.8,
+      "ending": "BE",
+      "vibes": [
+        "hype"
+      ],
+      "tropes": [
+        "Academic Prodigy",
+        "Secret Identity",
+        "Revenge Plot"
+      ],
+      "scoreV0": 7.3,
+      "why": "Academic Prodigy + Secret Identity — 3M views, academic prodigy"
+    },
+    {
+      "id": "_WVJ02dMF1o",
+      "videoId": "_WVJ02dMF1o",
+      "title": "一见钟情",
+      "titleChinese": "一见钟情",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_WVJ02dMF1o",
+      "thumbnail": "https://i.ytimg.com/vi/_WVJ02dMF1o/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 3.4,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Childhood Sweethearts",
+        "Protective Love",
+        "CEO Romance"
+      ],
+      "scoreV0": 6.3,
+      "why": "Childhood Sweethearts + Protective Love — 853K views, childhood sweethearts"
+    },
+    {
+      "id": "oIoy02pDgoU",
+      "videoId": "oIoy02pDgoU",
+      "title": "成何体统",
+      "titleChinese": "成何体统",
+      "youtubeUrl": "https://www.youtube.com/watch?v=oIoy02pDgoU",
+      "thumbnail": "https://i.ytimg.com/vi/oIoy02pDgoU/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.8,
+      "ending": "unknown",
+      "vibes": [
+        "hype"
+      ],
+      "tropes": [
+        "Drama"
+      ],
+      "scoreV0": 6.7,
+      "why": "Drama — 790K views, drama"
+    },
+    {
+      "id": "07XEG0QorgY",
+      "videoId": "07XEG0QorgY",
+      "title": "好一个乖乖女",
+      "titleChinese": "好一个乖乖女",
+      "youtubeUrl": "https://www.youtube.com/watch?v=07XEG0QorgY",
+      "thumbnail": "https://i.ytimg.com/vi/07XEG0QorgY/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 4,
+      "ending": "unknown",
+      "vibes": [
+        "hype",
+        "cry"
+      ],
+      "tropes": [
+        "Wronged Woman",
+        "Secret Baby",
+        "Family Drama"
+      ],
+      "scoreV0": 5.7,
+      "why": "Wronged Woman + Secret Baby — 394K views, wronged woman"
+    },
+    {
+      "id": "NDULBqPT6XY",
+      "videoId": "NDULBqPT6XY",
+      "title": "家里家外",
+      "titleChinese": "家里家外",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NDULBqPT6XY",
+      "thumbnail": "https://i.ytimg.com/vi/NDULBqPT6XY/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 3.2,
+      "ending": "unknown",
+      "vibes": [
+        "cry"
+      ],
+      "tropes": [
+        "Blended Family",
+        "Family Drama",
+        "Protective Love"
+      ],
+      "scoreV0": 5.7,
+      "why": "Blended Family + Family Drama — 252K views, blended family"
+    },
+    {
+      "id": "Uj1OCBVqpkQ",
+      "videoId": "Uj1OCBVqpkQ",
+      "title": "千金谋",
+      "titleChinese": "千金谋",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Uj1OCBVqpkQ",
+      "thumbnail": "https://i.ytimg.com/vi/Uj1OCBVqpkQ/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 2.1,
+      "ending": "BE",
+      "vibes": [
+        "hype"
+      ],
+      "tropes": [
+        "Revenge Plot",
+        "Second Chance",
+        "Secret Identity"
+      ],
+      "scoreV0": 5.1,
+      "why": "Revenge Plot + Second Chance — 150K views, revenge plot"
+    },
+    {
+      "id": "AWaieiYvn_A",
+      "videoId": "AWaieiYvn_A",
+      "title": "十八岁太奶奶驾到",
+      "titleChinese": "十八岁太奶奶驾到",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AWaieiYvn_A",
+      "thumbnail": "https://i.ytimg.com/vi/AWaieiYvn_A/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.7,
+      "ending": "unknown",
+      "vibes": [
+        "cry"
+      ],
+      "tropes": [
+        "Second Chance",
+        "Family Drama"
+      ],
+      "scoreV0": 4.5,
+      "why": "Second Chance + Family Drama — 18K views, second chance"
+    },
+    {
+      "id": "Eb-6e-9Ksj0",
+      "videoId": "Eb-6e-9Ksj0",
+      "title": "回到三国当名医",
+      "titleChinese": "回到三国当名医",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Eb-6e-9Ksj0",
+      "thumbnail": "https://i.ytimg.com/vi/Eb-6e-9Ksj0/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 1.9,
+      "ending": "unknown",
+      "vibes": [
+        "hype"
+      ],
+      "tropes": [
+        "Drama"
+      ],
+      "scoreV0": 4.2,
+      "why": "Drama — 10K views, drama"
+    },
+    {
+      "id": "DeE64ajdjCg",
+      "videoId": "DeE64ajdjCg",
+      "title": "天黑过后",
+      "titleChinese": "天黑过后",
+      "youtubeUrl": "https://www.youtube.com/watch?v=DeE64ajdjCg",
+      "thumbnail": "https://i.ytimg.com/vi/DeE64ajdjCg/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 2.4,
+      "ending": "unknown",
+      "vibes": [
+        "hype",
+        "cry"
+      ],
+      "tropes": [
+        "Wronged Woman",
+        "Family Drama"
+      ],
+      "scoreV0": 4.3,
+      "why": "Wronged Woman + Family Drama — 7K views, wronged woman"
+    },
+    {
+      "id": "3H7fmO-dVAk",
+      "videoId": "3H7fmO-dVAk",
+      "title": "冒姓琅琊",
+      "titleChinese": "冒姓琅琊",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3H7fmO-dVAk",
+      "thumbnail": "https://i.ytimg.com/vi/3H7fmO-dVAk/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 3.2,
+      "ending": "unknown",
+      "vibes": [
+        "hype"
+      ],
+      "tropes": [
+        "Drama"
+      ],
+      "scoreV0": 4.5,
+      "why": "Drama — 3K views, drama"
+    },
+    {
+      "id": "k1I-W2Zbc6w",
+      "videoId": "k1I-W2Zbc6w",
+      "title": "平行时空找到你之我爸是顶流",
+      "titleChinese": "平行时空找到你之我爸是顶流",
+      "youtubeUrl": "https://www.youtube.com/watch?v=k1I-W2Zbc6w",
+      "thumbnail": "https://i.ytimg.com/vi/k1I-W2Zbc6w/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 2,
+      "ending": "unknown",
+      "vibes": [
+        "hype"
+      ],
+      "tropes": [
+        "Drama"
+      ],
+      "scoreV0": 4.7,
+      "why": "Drama — 1K views, drama"
+    },
+    {
+      "id": "JypryJWDYMc",
+      "videoId": "JypryJWDYMc",
+      "title": "墨韵新生",
+      "titleChinese": "墨韵新生",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JypryJWDYMc",
+      "thumbnail": "https://i.ytimg.com/vi/JypryJWDYMc/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 1.2,
+      "ending": "unknown",
+      "vibes": [
+        "hype"
+      ],
+      "tropes": [
+        "Drama"
+      ],
+      "scoreV0": 4.8,
+      "why": "Drama — 0K views, drama"
+    },
+    {
+      "id": "JkaxUblCGz0",
+      "videoId": "JkaxUblCGz0",
+      "title": "Netflix",
+      "titleChinese": "Netflix",
+      "youtubeUrl": "https://www.youtube.com/watch?v=JkaxUblCGz0",
+      "thumbnail": "https://i.ytimg.com/vi/JkaxUblCGz0/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.8,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 9.4,
+      "why": "Drama + Romance — 47M views, drama"
+    },
+    {
+      "id": "kZ-IOh9-f90",
+      "videoId": "kZ-IOh9-f90",
+      "title": "I'm All In On You",
+      "titleChinese": "I'm All In On You",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kZ-IOh9-f90",
+      "thumbnail": "https://i.ytimg.com/vi/kZ-IOh9-f90/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.4,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 9.5,
+      "why": "Drama + Romance — 31M views, drama"
+    },
+    {
+      "id": "guO5E88iiYA",
+      "videoId": "guO5E88iiYA",
+      "title": "Hidden Love",
+      "titleChinese": "Hidden Love",
+      "youtubeUrl": "https://www.youtube.com/watch?v=guO5E88iiYA",
+      "thumbnail": "https://i.ytimg.com/vi/guO5E88iiYA/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.8,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 9.1,
+      "why": "Drama + Romance — 28M views, drama"
+    },
+    {
+      "id": "9cdUxZuarL0",
+      "videoId": "9cdUxZuarL0",
+      "title": "Historical",
+      "titleChinese": "Historical",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9cdUxZuarL0",
+      "thumbnail": "https://i.ytimg.com/vi/9cdUxZuarL0/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 1.5,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 8.9,
+      "why": "Drama + Romance — 17M views, drama"
+    },
+    {
+      "id": "M0r7RQPC4jU",
+      "videoId": "M0r7RQPC4jU",
+      "title": "Hindi Dubbed",
+      "titleChinese": "Hindi Dubbed",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M0r7RQPC4jU",
+      "thumbnail": "https://i.ytimg.com/vi/M0r7RQPC4jU/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.7,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 9.2,
+      "why": "Drama + Romance — 14M views, drama"
+    },
+    {
+      "id": "m3VZcMr9nqs",
+      "videoId": "m3VZcMr9nqs",
+      "title": "His Unforgettable Ex",
+      "titleChinese": "His Unforgettable Ex",
+      "youtubeUrl": "https://www.youtube.com/watch?v=m3VZcMr9nqs",
+      "thumbnail": "https://i.ytimg.com/vi/m3VZcMr9nqs/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.7,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 9.1,
+      "why": "Drama + Romance — 13M views, drama"
+    },
+    {
+      "id": "AHnnEDTNmVo",
+      "videoId": "AHnnEDTNmVo",
+      "title": "My Boss",
+      "titleChinese": "My Boss",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AHnnEDTNmVo",
+      "thumbnail": "https://i.ytimg.com/vi/AHnnEDTNmVo/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 2.5,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
       "scoreV0": 8.8,
-      "why": "Ethnic minority girl in contract marriage with CEO — cultural twist on classic trope"
+      "why": "Drama + Romance — 13M views, drama"
+    },
+    {
+      "id": "o6gD9_akew0",
+      "videoId": "o6gD9_akew0",
+      "title": ".feud",
+      "titleChinese": ".feud",
+      "youtubeUrl": "https://www.youtube.com/watch?v=o6gD9_akew0",
+      "thumbnail": "https://i.ytimg.com/vi/o6gD9_akew0/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.6,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 9.1,
+      "why": "Drama + Romance — 12M views, drama"
+    },
+    {
+      "id": "ObZOYd2xxS0",
+      "videoId": "ObZOYd2xxS0",
+      "title": "Best",
+      "titleChinese": "Best",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ObZOYd2xxS0",
+      "thumbnail": "https://i.ytimg.com/vi/ObZOYd2xxS0/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 2.9,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 9.1,
+      "why": "Drama + Romance — 12M views, drama"
+    },
+    {
+      "id": "Wz81ybJ2L2E",
+      "videoId": "Wz81ybJ2L2E",
+      "title": "Feud",
+      "titleChinese": "Feud",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Wz81ybJ2L2E",
+      "thumbnail": "https://i.ytimg.com/vi/Wz81ybJ2L2E/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.4,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 9.5,
+      "why": "Drama + Romance — 11M views, drama"
+    },
+    {
+      "id": "0lDOyCYqSVE",
+      "videoId": "0lDOyCYqSVE",
+      "title": "Grab Your Love",
+      "titleChinese": "Grab Your Love",
+      "youtubeUrl": "https://www.youtube.com/watch?v=0lDOyCYqSVE",
+      "thumbnail": "https://i.ytimg.com/vi/0lDOyCYqSVE/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 5.6,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 9,
+      "why": "Drama + Romance — 10M views, drama"
+    },
+    {
+      "id": "ESnSw6n9KBU",
+      "videoId": "ESnSw6n9KBU",
+      "title": "Gone Without A Glance",
+      "titleChinese": "Gone Without A Glance",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ESnSw6n9KBU",
+      "thumbnail": "https://i.ytimg.com/vi/ESnSw6n9KBU/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.7,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 9.7,
+      "why": "Drama + Romance — 10M views, drama"
+    },
+    {
+      "id": "Y3HxUfqfNmE",
+      "videoId": "Y3HxUfqfNmE",
+      "title": "Our Generation",
+      "titleChinese": "Our Generation",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Y3HxUfqfNmE",
+      "thumbnail": "https://i.ytimg.com/vi/Y3HxUfqfNmE/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.7,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 8,
+      "why": "Drama + Romance — 9M views, drama"
+    },
+    {
+      "id": "CytE6V4m9Bg",
+      "videoId": "CytE6V4m9Bg",
+      "title": "Secret Agents Adventure",
+      "titleChinese": "Secret Agents Adventure",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CytE6V4m9Bg",
+      "thumbnail": "https://i.ytimg.com/vi/CytE6V4m9Bg/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.4,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 8.6,
+      "why": "Drama + Romance — 8M views, drama"
+    },
+    {
+      "id": "-SgsE-_zsH4",
+      "videoId": "-SgsE-_zsH4",
+      "title": "盲心千金",
+      "titleChinese": "盲心千金",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-SgsE-_zsH4",
+      "thumbnail": "https://i.ytimg.com/vi/-SgsE-_zsH4/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 4.9,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 8.8,
+      "why": "Drama + Romance — 7M views, drama"
+    },
+    {
+      "id": "tlCSMHgOKbE",
+      "videoId": "tlCSMHgOKbE",
+      "title": "逆愛 RevengedLove",
+      "titleChinese": "逆愛 RevengedLove",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tlCSMHgOKbE",
+      "thumbnail": "https://i.ytimg.com/vi/tlCSMHgOKbE/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.8,
+      "ending": "BE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 8.8,
+      "why": "Drama + Romance — 7M views, drama"
+    },
+    {
+      "id": "wx8deL_-ltg",
+      "videoId": "wx8deL_-ltg",
+      "title": "FULL",
+      "titleChinese": "FULL",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wx8deL_-ltg",
+      "thumbnail": "https://i.ytimg.com/vi/wx8deL_-ltg/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.8,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 8.2,
+      "why": "Drama + Romance — 5M views, drama"
+    },
+    {
+      "id": "vFrbrFrIRYw",
+      "videoId": "vFrbrFrIRYw",
+      "title": "FULL",
+      "titleChinese": "FULL",
+      "youtubeUrl": "https://www.youtube.com/watch?v=vFrbrFrIRYw",
+      "thumbnail": "https://i.ytimg.com/vi/vFrbrFrIRYw/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 5.6,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 8.2,
+      "why": "Drama + Romance — 5M views, drama"
+    },
+    {
+      "id": "1bAux_FVcu0",
+      "videoId": "1bAux_FVcu0",
+      "title": "The First Frost",
+      "titleChinese": "The First Frost",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1bAux_FVcu0",
+      "thumbnail": "https://i.ytimg.com/vi/1bAux_FVcu0/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.4,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 6.8,
+      "why": "Drama + Romance — 5M views, drama"
+    },
+    {
+      "id": "1bAux_FVcu0",
+      "videoId": "1bAux_FVcu0",
+      "title": "First Frost",
+      "titleChinese": "First Frost",
+      "youtubeUrl": "https://www.youtube.com/watch?v=1bAux_FVcu0",
+      "thumbnail": "https://i.ytimg.com/vi/1bAux_FVcu0/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.4,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 6.8,
+      "why": "Drama + Romance — 5M views, drama"
+    },
+    {
+      "id": "dB_YyrMkLis",
+      "videoId": "dB_YyrMkLis",
+      "title": "Youku",
+      "titleChinese": "Youku",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dB_YyrMkLis",
+      "thumbnail": "https://i.ytimg.com/vi/dB_YyrMkLis/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 4,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 7.3,
+      "why": "Drama + Romance — 5M views, drama"
+    },
+    {
+      "id": "SnsjtL7YLfE",
+      "videoId": "SnsjtL7YLfE",
+      "title": "My Baby Girl",
+      "titleChinese": "My Baby Girl",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SnsjtL7YLfE",
+      "thumbnail": "https://i.ytimg.com/vi/SnsjtL7YLfE/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 0.7,
+      "ending": "HE",
+      "vibes": [
+        "sweet"
+      ],
+      "tropes": [
+        "Drama",
+        "Romance"
+      ],
+      "scoreV0": 7.2,
+      "why": "Drama + Romance — 5M views, drama"
     }
   ],
   "tropes": [
@@ -100,6 +918,30 @@
       "name": "Blended Family",
       "description": "Step-family navigates relationships and conflicts",
       "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "id": "revenge",
+      "name": "Revenge Plot",
+      "description": "Protagonist seeks revenge against those who wronged them",
+      "emoji": "⚔️"
+    },
+    {
+      "id": "cinderella-story",
+      "name": "Cinderella Story",
+      "description": "Poor girl meets rich man, classic rags-to-riches",
+      "emoji": "👗"
+    },
+    {
+      "id": "medical-romance",
+      "name": "Medical Romance",
+      "description": "Doctor/hospital setting romance",
+      "emoji": "⚕️"
+    },
+    {
+      "id": "wronged-woman",
+      "name": "Wronged Woman",
+      "description": "Female lead falsely accused, seeks vindication",
+      "emoji": "⚖️"
     }
   ]
 }
