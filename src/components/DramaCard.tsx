@@ -1,5 +1,8 @@
+import { useState, useEffect } from 'react';
 import { PlayCircle, Heart } from 'lucide-react';
 import { cn, getVibeEmoji, getEndingBadge } from '../lib/utils';
+import { ReactionButtons } from './ReactionButtons';
+import { isInWatchLater, toggleWatchLater } from '../lib/watchLater';
 import type { Drama } from '../types/drama';
 
 interface DramaCardProps {
@@ -9,6 +12,16 @@ interface DramaCardProps {
 
 export function DramaCard({ drama, featured = false }: DramaCardProps) {
   const endingBadge = getEndingBadge(drama.ending);
+  const [inWatchLater, setInWatchLater] = useState(false);
+
+  useEffect(() => {
+    setInWatchLater(isInWatchLater(drama.id));
+  }, [drama.id]);
+
+  const handleWatchLater = () => {
+    const newState = toggleWatchLater(drama.id);
+    setInWatchLater(newState);
+  };
 
   return (
     <div
@@ -74,17 +87,35 @@ export function DramaCard({ drama, featured = false }: DramaCardProps) {
         </div>
 
         {/* Footer */}
-        <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-          <div className="flex items-center gap-4 text-xs text-gray-600">
-            <span>{drama.episodeCount} eps</span>
-            <span>⭐ {drama.scoreV0.toFixed(1)}</span>
+        <div className="space-y-3">
+          <div className="flex items-center justify-between pt-4 border-t border-gray-100">
+            <div className="flex items-center gap-4 text-xs text-gray-600">
+              <span>{drama.episodeCount} eps</span>
+              <span>⭐ {drama.scoreV0.toFixed(1)}</span>
+            </div>
+            <button
+              onClick={handleWatchLater}
+              className={cn(
+                'p-2 rounded-full transition-all duration-200 group',
+                inWatchLater
+                  ? 'bg-pink-100 hover:bg-pink-200'
+                  : 'hover:bg-pink-50'
+              )}
+              title={inWatchLater ? 'Remove from Watch Later' : 'Add to Watch Later'}
+            >
+              <Heart
+                className={cn(
+                  'w-5 h-5 transition-colors',
+                  inWatchLater
+                    ? 'text-pink-500 fill-pink-500'
+                    : 'text-gray-400 group-hover:text-pink-500'
+                )}
+              />
+            </button>
           </div>
-          <button
-            className="p-2 rounded-full hover:bg-pink-50 transition-colors group"
-            title="Add to Watch Later"
-          >
-            <Heart className="w-5 h-5 text-gray-400 group-hover:text-pink-500 transition-colors" />
-          </button>
+
+          {/* Reactions */}
+          <ReactionButtons dramaId={drama.id} />
         </div>
       </div>
     </div>
