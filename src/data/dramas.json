@@ -1,0 +1,105 @@
+{
+  "dramas": [
+    {
+      "id": "zrO_my-AAVk",
+      "videoId": "zrO_my-AAVk",
+      "title": "The CEO's Cinderella",
+      "titleChinese": "灰姑娘遇霸总",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zrO_my-AAVk",
+      "thumbnail": "https://i.ytimg.com/vi/zrO_my-AAVk/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 2.1,
+      "ending": "HE",
+      "vibes": ["sweet", "hype"],
+      "tropes": ["CEO Romance", "Cinderella Story", "Contract Marriage"],
+      "scoreV0": 9.4,
+      "why": "Billionaire CEO meets ordinary girl — classic trope executed with high production value and 14M views"
+    },
+    {
+      "id": "97dUd6jo-vs",
+      "videoId": "97dUd6jo-vs",
+      "title": "Addicted to Spoiling Her",
+      "titleChinese": "宠溺成瘾",
+      "youtubeUrl": "https://www.youtube.com/watch?v=97dUd6jo-vs",
+      "thumbnail": "https://i.ytimg.com/vi/97dUd6jo-vs/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 2.7,
+      "ending": "HE",
+      "vibes": ["sweet", "laugh"],
+      "tropes": ["Medical Romance", "CEO Romance", "Protective Love"],
+      "scoreV0": 9.4,
+      "why": "Top surgeon CEO spoils his love — pure sweetness with medical drama twist"
+    },
+    {
+      "id": "G2DvWdfAvEY",
+      "videoId": "G2DvWdfAvEY",
+      "title": "Love Unrequited",
+      "titleChinese": "爱不遂人愿",
+      "youtubeUrl": "https://www.youtube.com/watch?v=G2DvWdfAvEY",
+      "thumbnail": "https://i.ytimg.com/vi/G2DvWdfAvEY/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 1.9,
+      "ending": "HE",
+      "vibes": ["cry", "sweet"],
+      "tropes": ["Secret Baby", "CEO Romance", "Second Chance"],
+      "scoreV0": 9.4,
+      "why": "Secret baby reunion story — emotional rollercoaster with satisfying payoff"
+    },
+    {
+      "id": "NDULBqPT6XY",
+      "videoId": "NDULBqPT6XY",
+      "title": "Inside and Outside the Home",
+      "titleChinese": "家里家外",
+      "youtubeUrl": "https://www.youtube.com/watch?v=NDULBqPT6XY",
+      "thumbnail": "https://i.ytimg.com/vi/NDULBqPT6XY/maxresdefault.jpg",
+      "episodeCount": 24,
+      "totalDurationHours": 3.2,
+      "ending": "HE",
+      "vibes": ["dogblood", "hype", "cry"],
+      "tropes": ["Blended Family", "Family Drama", "Protective Love"],
+      "scoreV0": 9.2,
+      "why": "Divorced mom + widowed dad weaponize unconditional love against toxic relatives — execution of '护短' trope at its finest"
+    },
+    {
+      "id": "FDK5ZGuuLJY",
+      "videoId": "FDK5ZGuuLJY",
+      "title": "Miao Girl Grabs the CEO",
+      "titleChinese": "苗疆女孩的霸总",
+      "youtubeUrl": "https://www.youtube.com/watch?v=FDK5ZGuuLJY",
+      "thumbnail": "https://i.ytimg.com/vi/FDK5ZGuuLJY/maxresdefault.jpg",
+      "episodeCount": 1,
+      "totalDurationHours": 1.7,
+      "ending": "HE",
+      "vibes": ["laugh", "sweet"],
+      "tropes": ["Contract Marriage", "CEO Romance", "Cinderella Story"],
+      "scoreV0": 8.8,
+      "why": "Ethnic minority girl in contract marriage with CEO — cultural twist on classic trope"
+    }
+  ],
+  "tropes": [
+    {
+      "id": "ceo-romance",
+      "name": "CEO Romance",
+      "description": "Wealthy, powerful male lead falls for ordinary female lead",
+      "emoji": "💼"
+    },
+    {
+      "id": "contract-marriage",
+      "name": "Contract Marriage",
+      "description": "Fake relationship that turns real",
+      "emoji": "💍"
+    },
+    {
+      "id": "secret-baby",
+      "name": "Secret Baby",
+      "description": "Hidden child brings separated lovers back together",
+      "emoji": "👶"
+    },
+    {
+      "id": "blended-family",
+      "name": "Blended Family",
+      "description": "Step-family navigates relationships and conflicts",
+      "emoji": "👨‍👩‍👧‍👦"
+    }
+  ]
+}
