@@ -1,25 +1,27 @@
 #!/usr/bin/env node
-// Migrate drama data from marsdrama to MassMotion
-import { readFileSync, writeFileSync } from 'fs';
+// Migrate drama data: ONLY Editor Picks from marsdrama + selected from youtubeshortsdata
+import { readFileSync, writeFileSync, readdirSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// Read marsdrama data
+// Read marsdrama Editor Picks
 const marsdramaPath = '../marsdrama/marsdrama/src/data/dramas.json';
 const marsdramaData = JSON.parse(
   readFileSync(join(__dirname, marsdramaPath), 'utf8')
 );
 
+// Read youtubeshortsdata channels
+const youtubeDataPath = '/Volumes/Lexar/oneweekoneproject/myshortslist/youtubeshortsdata';
+
 console.log('📊 Source data:');
-console.log(`  - Editor picks: ${marsdramaData.editorPicks.length}`);
-console.log(`  - Free dramas: ${marsdramaData.freeDramas.length}`);
+console.log(`  - Marsdrama Editor Picks: ${marsdramaData.editorPicks.length}`);
 
 // Helper: Infer ending from tropes and genre
 function inferEnding(drama) {
-  const title = (drama.title + drama.titleEn + drama.titleChinese).toLowerCase();
+  const title = (drama.title + (drama.titleEn || '') + drama.titleChinese).toLowerCase();
   const tropes = drama.tropes?.join(' ').toLowerCase() || '';
   const genre = drama.genre?.toLowerCase() || '';
 
@@ -139,8 +141,8 @@ function generateWhy(drama) {
   return `${genre || 'Popular drama'} with ${viewsText} — compelling storyline`;
 }
 
-// Transform drama to MassMotion format
-function transformDrama(drama) {
+// Transform marsdrama Editor Pick to MassMotion format
+function transformMarsdrama(drama) {
   return {
     id: drama.id,
     videoId: drama.videoId,
@@ -158,22 +160,138 @@ function transformDrama(drama) {
   };
 }
 
-// Process editor picks (all 18)
-const editorPicks = marsdramaData.editorPicks.map(transformDrama);
+// Transform youtubeshortsdata video to MassMotion format
+function transformYoutubeData(video) {
+  // Extract title (remove hashtags and extra metadata)
+  let cleanTitle = video.title;
 
-console.log('\n✅ Processed editor picks:', editorPicks.length);
+  // Extract from 《》 if present (this is the actual drama name)
+  const dramaNameMatch = cleanTitle.match(/《([^》]+)》/);
+  if (dramaNameMatch) {
+    cleanTitle = dramaNameMatch[1];
+  } else {
+    // Otherwise clean up the title
+    cleanTitle = cleanTitle
+      .replace(/#[^\s]+/g, '') // Remove hashtags
+      .replace(/\[MULTI SUB\]/gi, '')
+      .replace(/【[^】]+】/g, '') // Remove 【】 brackets
+      .replace(/「([^」]+)」/g, '$1') // Extract content from 「」
+      .replace(/\|.*?[剧場].*?\|/gi, '') // Remove | channel |
+      .replace(/第\d+~\d+集/g, '') // Remove episode numbers
+      .replace(/\([^)]+\)/g, '') // Remove () parentheses
+      .split('|')[0] // Take first part before |
+      .split('？')[0] // Take first part before ？
+      .split('！')[0] // Take first part before ！
+      .replace(/\s+/g, ' ') // Normalize spaces
+      .trim();
+  }
 
-// Process free dramas: sort by viewCount, take top 22 (to reach 40 total)
-const sortedFreeDramas = marsdramaData.freeDramas
-  .filter((d) => d.viewCount && d.viewCount > 10000) // Filter low-quality
-  .sort((a, b) => (b.viewCount || 0) - (a.viewCount || 0))
-  .slice(0, 22)
-  .map(transformDrama);
+  // Fallback: use first 30 chars if still looks messy
+  if (!cleanTitle || cleanTitle.length < 2) {
+    cleanTitle = video.title.slice(0, 30).replace(/#[^\s]+/g, '').trim();
+  }
 
-console.log('✅ Processed free dramas:', sortedFreeDramas.length);
+  // Final cleanup
+  cleanTitle = cleanTitle
+    .replace(/\[MULTI SUB\]/gi, '')
+    .replace(/【完整版】/g, '')
+    .replace(/（高清全集）/g, '')
+    .replace(/^\|\s*/, '') // Remove leading |
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  if (cleanTitle.length > 50) {
+    cleanTitle = cleanTitle.slice(0, 50).trim() + '...';
+  }
+
+  // Infer genre from title/description
+  let genre = 'Romance';
+  const text = (video.title + video.description).toLowerCase();
+  if (text.includes('霸总') || text.includes('ceo')) genre = 'CEO Romance';
+  if (text.includes('穿越') || text.includes('time travel')) genre = 'Time Travel';
+  if (text.includes('重生') || text.includes('rebirth')) genre = 'Rebirth';
+  if (text.includes('复仇') || text.includes('revenge')) genre = 'Revenge';
+  if (text.includes('医生') || text.includes('doctor')) genre = 'Medical Romance';
+
+  // Infer tropes
+  const tropes = [];
+  if (text.includes('ceo') || text.includes('霸总')) tropes.push('CEO Romance');
+  if (text.includes('contract') || text.includes('契约')) tropes.push('Contract Marriage');
+  if (text.includes('baby') || text.includes('萌宝')) tropes.push('Secret Baby');
+  if (text.includes('revenge') || text.includes('复仇')) tropes.push('Revenge Plot');
+  if (text.includes('cinderella') || text.includes('灰姑娘')) tropes.push('Cinderella Story');
+  if (tropes.length === 0) tropes.push('Sweet Romance');
+
+  // Calculate episodes (assume 8 min per episode)
+  const episodeCount = Math.max(1, Math.round(video.duration / (8 * 60)));
+
+  const drama = {
+    videoId: video.videoId,
+    title: cleanTitle,
+    titleChinese: cleanTitle,
+    youtubeUrl: video.url,
+    thumbnail: `https://i.ytimg.com/vi/${video.videoId}/maxresdefault.jpg`,
+    episodeCount,
+    totalDuration: Math.round(video.duration / 60), // Convert seconds to minutes
+    viewCount: video.viewCount,
+    genre,
+    tropes,
+    rating: 8.0, // Default rating
+  };
+
+  return {
+    id: video.videoId,
+    videoId: video.videoId,
+    title: cleanTitle,
+    titleChinese: cleanTitle,
+    youtubeUrl: video.url,
+    thumbnail: `https://i.ytimg.com/vi/${video.videoId}/maxresdefault.jpg`,
+    episodeCount,
+    totalDurationHours: Math.round((video.duration / 3600) * 10) / 10,
+    ending: inferEnding(drama),
+    vibes: inferVibes(drama),
+    tropes,
+    scoreV0: calculateScore(drama),
+    why: generateWhy(drama),
+  };
+}
+
+// Process Editor Picks (all 22)
+const editorPicks = marsdramaData.editorPicks.map(transformMarsdrama);
+
+console.log('✅ Processed Editor Picks:', editorPicks.length);
+
+// Read selected youtubeshortsdata channels
+const selectedChannels = [
+  'niuniuduanju',
+  'tinghuadrama',
+  'shengshidrama',
+  'sweet-dream-drama',
+];
+
+let youtubeVideos = [];
+for (const channel of selectedChannels) {
+  const jsonPath = join(youtubeDataPath, channel, `${channel}-videos-by-views.json`);
+  try {
+    const videos = JSON.parse(readFileSync(jsonPath, 'utf8'));
+    console.log(`  - ${channel}: ${videos.length} videos available`);
+    youtubeVideos.push(...videos);
+  } catch (err) {
+    console.log(`  - ${channel}: file not found, skipping`);
+  }
+}
+
+// Sort by viewCount and take top 18 to reach ~40 total
+const selectedYoutube = youtubeVideos
+  .filter((v) => v.viewCount > 500000 && v.duration > 3000) // Min quality filter
+  .sort((a, b) => b.viewCount - a.viewCount)
+  .slice(0, 18)
+  .map(transformYoutubeData);
+
+console.log('✅ Processed YouTube dramas:', selectedYoutube.length);
 
 // Combine all dramas
-const allDramas = [...editorPicks, ...sortedFreeDramas];
+const allDramas = [...editorPicks, ...selectedYoutube];
 
 console.log('\n📊 Total dramas:', allDramas.length);
 console.log('   - HE:', allDramas.filter((d) => d.ending === 'HE').length);
@@ -247,4 +365,4 @@ console.log(`   Output: ${outputPath}`);
 console.log('\n🎯 Next steps:');
 console.log('   1. Review data: cat src/data/dramas.json | jq ".dramas | length"');
 console.log('   2. Test locally: npm run dev');
-console.log('   3. Deploy: git add . && git commit -m "data: migrate 40 dramas" && git push');
+console.log('   3. Deploy: git add . && git commit -m "data: fix drama sources (Editor Picks + youtubeshortsdata)" && git push');
